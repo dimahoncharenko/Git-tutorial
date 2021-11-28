@@ -7,4 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Primo action
-      run: node index.js
+        run: | 
+          node index.js
