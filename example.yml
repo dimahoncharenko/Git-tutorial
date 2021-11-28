@@ -1,0 +1,10 @@
+name: Testing
+on: push
+
+jobs: 
+  test_project:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Primo action"
+      run: node ./index.js
