@@ -8,4 +8,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Primo action
         run: | 
-          node index.js
+          npm install
+          npm start

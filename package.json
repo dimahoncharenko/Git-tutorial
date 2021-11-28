@@ -1,0 +1,24 @@
+{
+  "name": "git-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node --files index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimahoncharenko/Git-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimahoncharenko/Git-tutorial/issues"
+  },
+  "homepage": "https://github.com/dimahoncharenko/Git-tutorial#readme",
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
